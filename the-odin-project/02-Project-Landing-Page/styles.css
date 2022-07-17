@@ -69,7 +69,8 @@ h1 {
     font-weight: 900;   
 }
 
-.logo h2 {
+.logo h2,
+.button-holder h2 {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
@@ -77,6 +78,7 @@ h1 {
 
 header a,
 .welcome p,
+.button-text p,
 footer {
     color: #E5E7EB;
     font-size: 18px;
@@ -235,3 +237,22 @@ img {
 }
 
 /*------------------------*/
+.sign-up {
+    padding: 100px 200px;
+}
+
+.button-holder {
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-holder button {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}

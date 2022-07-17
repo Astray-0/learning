@@ -54,6 +54,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 header,
 .welcome,
 footer {
@@ -64,6 +68,12 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;   
+}
+
+.logo h2 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header a,
@@ -96,3 +106,26 @@ button {
 }
 
 /*------------------*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    height: auto;
+    width: 30px;
+}
+/*-------------------*/

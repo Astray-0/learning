@@ -48,3 +48,51 @@ table {
 }
 
 /*--------------- CSS reset end here ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.welcome,
+footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;   
+}
+
+header a,
+.welcome p,
+footer {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-holder,
+button {
+    background-color: #3882f6;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quotes p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/*------------------*/

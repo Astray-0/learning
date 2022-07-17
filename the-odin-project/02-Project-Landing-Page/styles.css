@@ -48,8 +48,6 @@ table {
 }
 
 /*--------------- CSS reset end here ---------------*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -101,7 +99,7 @@ button {
 .quotes p {
     color: #1f2937;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: lighter;
     font-style: italic;
 }
 
@@ -215,3 +213,20 @@ img {
     color: #1f2937;
 }
 
+/*------------------------*/
+.quotes {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes p {
+    margin-bottom: 50px;
+}
+
+.quotes span {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 18px;
+}

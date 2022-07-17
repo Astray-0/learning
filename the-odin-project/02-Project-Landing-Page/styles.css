@@ -134,3 +134,48 @@ img {
     width: 30px;
 }
 /*-------------------*/
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.welcome .welcome-text {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome img {
+    height: auto;
+    width: 450px;
+    border: 5px #E5E7EB solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.welcome button {
+    align-self: flex-start;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.welcome .credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: #3882f6;
+}
+
+/*-------------------*/
